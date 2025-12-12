@@ -9,3 +9,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+.btn-outline-secondary{
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+}
+
+.digito1{
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.ultimoDigito{
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+.cf{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.cfs{
+    background-color: rgba(128, 128, 128, 0);
+}

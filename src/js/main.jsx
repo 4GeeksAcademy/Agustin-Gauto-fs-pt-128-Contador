@@ -23,4 +23,4 @@ setInterval(()=>{
     </React.StrictMode>,
   )
   count++
-}, 5)
+}, 1000)

@@ -9,32 +9,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-*{
-    background-color: rgb(255, 255, 255);
-    padding: 0;
-    margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bitcount+Grid+Single:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sekuya&display=swap');
 
-.btn-outline-secondary{
+.btn-outline-secondary {
     height: 200px;
     width: 200px;
     font-size: 50px;
 }
 
-.digito1{
+.digito1 {
     border-radius: 20px 0px 0px 20px;
 
 }
 
-.ultimoDigito{
+.ultimoDigito {
     border-radius: 0px 20px 20px 0px;
 
 }
 
-.cf{
-    background-color: rgba(128, 128, 128, 0.226);
+.cf {
+    background-color: rgba(221, 220, 220, 0.404);
 }
 
-.cfs{
+.cfs {
     background-color: rgba(128, 128, 128, 0);
+
+
+}
+
+body {
+    background-image: url(https://miro.medium.com/v2/resize:fit:2000/1*cUVtw3kMm40Y9wo_f3ZZ3w@2x.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p {
+    font-family: "Sekuya", system-ui;
+    font-size: 30px;
+    color: aliceblue;
 }

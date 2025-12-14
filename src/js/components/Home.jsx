@@ -8,8 +8,9 @@ const Home = ({ count }) => {
 
 	return (
 		<>
-			<div className="btn-toolbar position-absolute top-50 start-50 translate-middle" role="toolbar" aria-label="Toolbar with button groups">
-				<div className="btn-group m-2 " role="group" aria-label="First group">
+			<div className="btn-toolbar mb-5 position-absolute bottom-0 start-50 translate-middle-x" role="toolbar" aria-label="Toolbar with button groups">
+				<p>Winter is coming in approximately 1000 years :</p>
+				<div className="btn-group m-2" role="group" aria-label="First group">
 					<button type="button" className="btn-outline-secondary cf digito1"><i className="cfs fa-regular fa-clock"></i></button>
 					<button type="button" className="btn-outline-secondary cf">{Math.floor(count / 10000) % 10}</button>
 					<button type="button" className="btn-outline-secondary cf">{Math.floor(count / 1000) % 10}</button>
